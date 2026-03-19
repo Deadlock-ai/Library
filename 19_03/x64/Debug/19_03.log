@@ -1,5 +1,158 @@
 ﻿  19_03.cpp
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(9,17): error C2065: Book: необъявленный идентификатор
+  (компиляция исходного файла "19_03.cpp")
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(9,10): error C2923: std::vector: "Book" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "19_03.cpp")
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(9,17):
+       см. объявление "Book"
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(9,10): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "19_03.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(442,7):
+       см. объявление "std::vector"
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(11,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "19_03.cpp")
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(11,28): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+  (компиляция исходного файла "19_03.cpp")
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(13,25): error C2065: book: необъявленный идентификатор
+  (компиляция исходного файла "19_03.cpp")
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(17,19): error C2662: bool std::vector<_Ty,_Alloc>::empty(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+  (компиляция исходного файла "19_03.cpp")
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(17,13):
+      Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(17,13):
+      Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1908,47):
+       см. объявление "std::vector<_Ty,_Alloc>::empty"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(17,19):
+      при попытке сопоставить список аргументов "()"
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(22,38): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+  (компиляция исходного файла "19_03.cpp")
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(22,32):
+      Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(22,32):
+      Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1913,39):
+       см. объявление "std::vector<_Ty,_Alloc>::size"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(22,38):
+      при попытке сопоставить список аргументов "()"
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "19_03.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1937,40):
+      может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
+          Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+          const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+              Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+              Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+              Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+              Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1927,34):
+      или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
+          Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+          _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+              Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+              Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+              Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+              Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+      при попытке сопоставить список аргументов "(std::vector, size_t)"
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\19_03.cpp(17,9): error C2664: "void Library::AddBook(const int)": невозможно преобразовать аргумент 1 из "Book" в "const int"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\19_03.cpp(17,17):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(11,10):
+       см. объявление "Library::AddBook"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\19_03.cpp(17,9):
+      при попытке сопоставить список аргументов "(Book)"
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\19_03.cpp(18,9): error C2664: "void Library::AddBook(const int)": невозможно преобразовать аргумент 1 из "Book" в "const int"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\19_03.cpp(18,17):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(11,10):
+       см. объявление "Library::AddBook"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\19_03.cpp(18,9):
+      при попытке сопоставить список аргументов "(Book)"
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\19_03.cpp(19,9): error C2664: "void Library::AddBook(const int)": невозможно преобразовать аргумент 1 из "Book" в "const int"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\19_03.cpp(19,17):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(11,10):
+       см. объявление "Library::AddBook"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\19_03.cpp(19,9):
+      при попытке сопоставить список аргументов "(Book)"
+  
   Book.cpp
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(9,17): error C2065: Book: необъявленный идентификатор
+  (компиляция исходного файла "Book.cpp")
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(9,10): error C2923: std::vector: "Book" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Book.cpp")
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(9,17):
+       см. объявление "Book"
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(9,10): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Book.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(442,7):
+       см. объявление "std::vector"
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(11,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Book.cpp")
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(11,28): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+  (компиляция исходного файла "Book.cpp")
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(13,25): error C2065: book: необъявленный идентификатор
+  (компиляция исходного файла "Book.cpp")
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(17,19): error C2662: bool std::vector<_Ty,_Alloc>::empty(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+  (компиляция исходного файла "Book.cpp")
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(17,13):
+      Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(17,13):
+      Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1908,47):
+       см. объявление "std::vector<_Ty,_Alloc>::empty"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(17,19):
+      при попытке сопоставить список аргументов "()"
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(22,38): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+  (компиляция исходного файла "Book.cpp")
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(22,32):
+      Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(22,32):
+      Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1913,39):
+       см. объявление "std::vector<_Ty,_Alloc>::size"
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(22,38):
+      при попытке сопоставить список аргументов "()"
+  
+Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "Book.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1937,40):
+      может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
+          Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+          const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+              Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+              Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+              Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+              Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1927,34):
+      или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
+          Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+          _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+              Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+              Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+              Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+              Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\Library.h(25,13):
+      при попытке сопоставить список аргументов "(std::vector, size_t)"
+  
   Library.cpp
   Создание кода...
-  19_03.vcxproj -> Z:\Колледж\РПО-24-1\Нужнов Кирилл\C++\19_03\x64\Debug\19_03.exe

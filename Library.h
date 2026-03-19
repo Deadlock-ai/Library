@@ -8,7 +8,7 @@ class Library
 private:
     std::vector<Book> books;
 public: 
-    void AddBook(Book& book)
+    void AddBook(const Book& book)
     {
         books.push_back(book);
     }

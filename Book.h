@@ -25,7 +25,19 @@ public:
         std::cout << "Input author of book: ";
         std::cin >> Author;
         std::cout << "Input published year of book: ";
-        std::cin >> PubYear;
+        try
+        {
+            std::cin >> PubYear;
+            if (std::cin.fail() || PubYear < 0)
+                throw std::runtime_error("Invalid year");
+        }
+        catch (...)
+        {
+            std::cout << "Error: Year must be a positive number. Setting year to 0." << std::endl;
+            PubYear = 0;
+            std::cin.clear();
+            std::cin.ignore(10000, '\n');
+        }
     }
 };
 
